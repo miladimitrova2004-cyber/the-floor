@@ -9110,7 +9110,7 @@ export const CATEGORY_METADATA: Record<Category, CategoryMetadata> = {
   "Brand slogans": BrandSlogansCategory,
   "Broadway shows": BroadwayShowsCategory,
   "Bulgarian Chalga Singers": BulgarianChalgaSingersCategory,
-  "Bulgarian Landmarks": BulgarianLandmarksCategory
+  "Bulgarian Landmarks": BulgarianLandmarksCategory,
   "Chicago tourist stuff": ChicagoTouristStuffCategory,
   "City Skylines": CitySkylinesCategory,
   Comedians: ComediansCategory,

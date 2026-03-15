@@ -1769,7 +1769,7 @@ const BulgarianChalgaSingersCategory: CategoryMetadata = {
 },
 {
   name: "Kristian Kirilov",
-  text: "kristiankirilov.jpg",
+  image: "kristiankirilov.jpg",
   alternatives: [],
     },
   ],

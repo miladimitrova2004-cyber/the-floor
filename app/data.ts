@@ -11,6 +11,12 @@ const FLOOR_DATA_CONST = [
     hasPlayed: false,
     isStillInTheGame: true,
   },
+  {
+    person: "Ted",
+    category: "Bulgarian TV Shows",
+    hasPlayed: false,
+    isStillInTheGame: true,
+  },
    {
     person: "Anna",
     category: "Bulgarian Landmarks",
@@ -244,6 +250,7 @@ export type Category =
   | "Junk drawer"
   | "Laundry"
   | "Pop divas"
+  | "Bulgarian TV Shows"
   | "Chicago tourist stuff"
   | "Board games"
   | "States"
@@ -562,6 +569,228 @@ const PokemonCategory: CategoryMetadata = {
     {
       name: "Magnemite",
       image: "magnemite.png",
+      alternatives: [],
+    },
+  ],
+};
+
+const BulgarianTVShowsCategory: CategoryMetadata = {
+  name: "Bulgarian TV Shows",
+  folder: "bulgarian-tv-shows",
+  examples: [
+    {
+      name: "Ергенът",
+      image: "Ергенът",
+      alternatives: ["Ergenut"],
+    },
+    {
+      name: "Игри на волята",
+      image: "Игри на волята",
+      alternatives: ["Igrite na volyata"],
+    },
+    {
+      name: "Survivor",
+      image: "Survivor",
+      alternatives: ["Сървайвър"],
+    },
+    {
+      name: "Big Brother",
+      image: "Big Brother",
+      alternatives: ["Биг Брадър"],
+    },
+    {
+      name: "Фермата",
+      image: "Фермата",
+      alternatives: [],
+    },
+    {
+      name: "MasterChef",
+      image: "MasterChef",
+      alternatives: ["Мастършеф"],
+    },
+    {
+      name: "Hell’s Kitchen",
+      image: "Hell’s Kitchen",
+      alternatives: ["Хелс Китчън"],
+    },
+    {
+      name: "Гласът на България",
+      image: "Гласът на България",
+      alternatives: ["The Voice Bulgaria"],
+    },
+    {
+      name: "Като две капки вода",
+      image: "Като две капки вода",
+      alternatives: [],
+    },
+    {
+      name: "България търси талант",
+      image: "България търси талант",
+      alternatives: ["Bulgaria's Got Talent"],
+    },
+    {
+      name: "Dancing Stars",
+      image: "Dancing Stars",
+      alternatives: ["Денсинг Старс"],
+    },
+    {
+      name: "Маскираният певец",
+      image: "Маскираният певец",
+      alternatives: [],
+    },
+    {
+      name: "Един за друг",
+      image: "Един за друг",
+      alternatives: [],
+    },
+    {
+      name: "Стани богат",
+      image: "Стани богат",
+      alternatives: ["Who Wants to Be a Millionaire Bulgaria"],
+    },
+    {
+      name: "Семейни войни",
+      image: "Семейни войни",
+      alternatives: ["Family Feud Bulgaria"],
+    },
+    {
+      name: "Последният печели",
+      image: "Последният печели",
+      alternatives: [],
+    },
+    {
+      name: "Черешката на тортата",
+      image: "Черешката на тортата",
+      alternatives: [],
+    },
+    {
+      name: "Кошмари в кухнята",
+      image: "Кошмари в кухнята",
+      alternatives: [],
+    },
+    {
+      name: "Сделка или не",
+      image: "Сделка или не",
+      alternatives: ["Deal or No Deal Bulgaria"],
+    },
+    {
+      name: "Шоуто на Слави",
+      image: "Шоуто на Слави",
+      alternatives: [],
+    },
+    {
+      name: "Господари на ефира",
+      image: "Господари на ефира",
+      alternatives: [],
+    },
+    {
+      name: "Комиците",
+      text: "Комиците",
+      alternatives: [],
+    },
+    {
+      name: "Папараци",
+      text: "Папараци",
+      alternatives: [],
+    },
+    {
+      name: "На кафе",
+      text: "На кафе",
+      alternatives: ["На кафе с Гала"],
+    },
+    {
+      name: "Вечерното шоу на Азис",
+      text: "Вечерното шоу на Азис",
+      alternatives: [],
+    },
+    {
+      name: "Шоуто на Николаос Цитиридис",
+      text: "Шоуто на Николаос Цитиридис",
+      alternatives: [],
+    },
+    {
+      name: "Преди обед",
+      text: "Преди обед",
+      alternatives: [],
+    },
+    {
+      name: "Мармалад",
+      text: "Мармалад",
+      alternatives: [],
+    },
+    {
+      name: "Съдебен спор",
+      text: "Съдебен спор",
+      alternatives: [],
+    },
+    {
+      name: "Минута е много",
+      text: "Минута е много",
+      alternatives: [],
+    },
+    {
+      name: "Бригада Нов Дом",
+      text: "Вариант М",
+      alternatives: [],
+    },
+    {
+      name: "The Floor",
+      text: "Ку-ку",
+      alternatives: [],
+    },
+    {
+      name: "120 минути",
+      text: "Каналето",
+      alternatives: [],
+    },
+    {
+      name: "Аз обичам България",
+      text: "Хъшове",
+      alternatives: [],
+    },
+    {
+      name: "Лека нощ деца",
+      text: "Лека нощ деца",
+      alternatives: ["Сънчо"],
+    },
+    {
+      name: "Риск печели риск губи",
+      text: "Риск печели риск губи",
+      alternatives: [],
+    },
+    {
+      name: "Спорт Тото",
+      text: "Колелото на късмета",
+      alternatives: [],
+    },
+    {
+      name: "Лице в Лице",
+      text: "Такси",
+      alternatives: [],
+    },
+    {
+      name: "Търси се",
+      text: "Море от любов",
+      alternatives: [],
+    },
+    {
+      name: "Искрено и лично",
+      text: "Искрено и лично",
+      alternatives: [],
+    },
+    {
+      name: "Чай",
+      text: "Чай",
+      alternatives: [],
+    },
+    {
+      name: "Всяка неделя",
+      text: "Всяка неделя",
+      alternatives: [],
+    },
+    {
+      name: "Панорама",
+      text: "Панорама",
       alternatives: [],
     },
   ],

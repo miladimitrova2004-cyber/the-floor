@@ -1639,7 +1639,7 @@ const BulgarianChalgaSingersCategory: CategoryMetadata = {
 },
 {
   name: "Kameliya",
-  image: "kamelia.png",
+  image: "kamelia.jpg",
   alternatives: ["Kamelia"],
 },
 {
@@ -1658,8 +1658,8 @@ const BulgarianChalgaSingersCategory: CategoryMetadata = {
   alternatives: [],
 },
 {
-  name: "Lidya",
-  image: "lidya.jpg.webp",
+  name: "Lidia",
+  image: "lidiya.jpg.webp",
   alternatives: [],
 },
 {
@@ -1684,7 +1684,7 @@ const BulgarianChalgaSingersCategory: CategoryMetadata = {
 },
 {
   name: "Kristiana",
-  image: "kristianajpg",
+  image: "kristiana.jpg",
   alternatives: [],
 },
 {
@@ -1714,7 +1714,7 @@ const BulgarianChalgaSingersCategory: CategoryMetadata = {
 },
 {
   name: "Nelina",
-  image: "nelina.jpg",
+  image: "Nelina.jpg",
   alternatives: [],
 },
 {

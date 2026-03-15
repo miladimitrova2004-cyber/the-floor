@@ -1554,7 +1554,7 @@ const BulgarianChalgaSingersCategory: CategoryMetadata = {
   examples: [
 {
   name: "Azis",
-  text: "Azis",
+  image: "azis.webp",
   alternatives: [],
 },
 {

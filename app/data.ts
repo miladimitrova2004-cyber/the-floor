@@ -12,6 +12,12 @@ const FLOOR_DATA_CONST = [
     isStillInTheGame: true,
   },
   {
+    person: "Mila",
+    category: "Bulgarian Chalga Singers",
+    hasPlayed: false,
+    isStillInTheGame: true,
+  },
+  {
     person: "Gabe",
     category: "Junk drawer",
     hasPlayed: false,
@@ -258,6 +264,7 @@ export type Category =
   | "Famous people who died before turning 30"
   | "Fast food chains"
   | "Fridge"
+  | "Bulgarian Chalga Singers"
   | "Garage"
   | "Holidays"
   | "MLB Teams"

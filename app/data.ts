@@ -1548,6 +1548,241 @@ const MathCategory: CategoryMetadata = {
   ],
 };
 
+const BulgarianChalgaSingersCategory: CategoryMetadata = {
+  name: "Bulgarian Chalga Singers",
+  folder: "bulgarian-chalga-singers",
+  examples: [
+{
+  name: "Azis",
+  text: "Azis",
+  alternatives: [],
+},
+{
+  name: "Galena",
+  text: "Galena",
+  alternatives: [],
+},
+{
+  name: "Preslava",
+  text: "Preslava",
+  alternatives: [],
+},
+{
+  name: "Anelia",
+  text: "Anelia",
+  alternatives: [],
+},
+{
+  name: "Desi Slava",
+  text: "Desi Slava",
+  alternatives: ["Desislava"],
+},
+{
+  name: "Andrea",
+  text: "Andrea",
+  alternatives: [],
+},
+{
+  name: "Emilia",
+  text: "Emilia",
+  alternatives: [],
+},
+{
+  name: "Konstantin",
+  text: "Konstantin",
+  alternatives: ["Koceto", "Kotseto"],
+},
+{
+  name: "Toni Storaro",
+  text: "Toni Storaro",
+  alternatives: [],
+},
+{
+  name: "Fiki",
+  text: "Fiki",
+  alternatives: [],
+},
+{
+  name: "Gergana",
+  text: "Gergana",
+  alternatives: [],
+},
+{
+  name: "Dzhena",
+  text: "Dzhena",
+  alternatives: ["Djena"],
+},
+{
+  name: "Emanuela",
+  text: "Emanuela",
+  alternatives: [],
+},
+{
+  name: "Tsvetelina Yaneva",
+  text: "Tsvetelina Yaneva",
+  alternatives: [],
+},
+{
+  name: "Malina",
+  text: "Malina",
+  alternatives: [],
+},
+{
+  name: "Mariya",
+  text: "Mariya",
+  alternatives: ["Maria"],
+},
+{
+  name: "Gloria",
+  text: "Gloria",
+  alternatives: [],
+},
+{
+  name: "Kameliya",
+  text: "Kameliya",
+  alternatives: ["Kamelia"],
+},
+{
+  name: "Raina",
+  text: "Raina",
+  alternatives: ["Rayna"],
+},
+{
+  name: "Teodora",
+  text: "Teodora",
+  alternatives: [],
+},
+{
+  name: "Boni",
+  text: "Boni",
+  alternatives: [],
+},
+{
+  name: "Lidya",
+  text: "Lidya",
+  alternatives: [],
+},
+{
+  name: "Desita",
+  text: "Desita",
+  alternatives: [],
+},
+{
+  name: "Alisia",
+  text: "Alisia",
+  alternatives: [],
+},
+{
+  name: "Julia",
+  text: "Julia",
+  alternatives: [],
+},
+{
+  name: "Tedi Aleksandrova",
+  text: "Tedi Aleksandrova",
+  alternatives: [],
+},
+{
+  name: "Kristiana",
+  text: "Kristiana",
+  alternatives: [],
+},
+{
+  name: "Simona",
+  text: "Simona",
+  alternatives: [],
+},
+{
+  name: "Vanya",
+  text: "Vanya",
+  alternatives: [],
+},
+{
+  name: "Vesela",
+  text: "Vesela",
+  alternatives: [],
+},
+{
+  name: "Petya Paneva",
+  text: "Petya Paneva",
+  alternatives: [],
+},
+{
+  name: "Tatiana",
+  text: "Tatiana",
+  alternatives: [],
+},
+{
+  name: "Nelina",
+  text: "Nelina",
+  alternatives: [],
+},
+{
+  name: "Valya",
+  text: "Valya",
+  alternatives: [],
+},
+{
+  name: "Ivana",
+  text: "Ivana",
+  alternatives: [],
+},
+{
+  name: "Silvia",
+  text: "Silvia",
+  alternatives: [],
+},
+{
+  name: "Suzy",
+  text: "Suzy",
+  alternatives: [],
+},
+{
+  name: "Alexandra",
+  text: "Alexandra",
+  alternatives: [],
+},
+{
+  name: "Viktoria",
+  text: "Viktoria",
+  alternatives: [],
+},
+{
+  name: "Erika",
+  text: "Erika",
+  alternatives: [],
+},
+{
+  name: "Medi",
+  text: "Medi",
+  alternatives: [],
+},
+{
+  name: "Sinan",
+  text: "Sinan",
+  alternatives: [],
+},
+{
+  name: "Emrah",
+  text: "Emrah",
+  alternatives: [],
+},
+{
+  name: "Ilian",
+  text: "Ilian",
+  alternatives: [],
+},
+{
+  name: "Boris Dali",
+  text: "Boris Dali",
+  alternatives: [],
+},
+{
+  name: "Kristian Kirilov",
+  text: "Kristian Kirilov",
+  alternatives: [],
+}
+  
 const JunkDrawerCategory: CategoryMetadata = {
   name: "Junk drawer",
   folder: "junk-drawer",

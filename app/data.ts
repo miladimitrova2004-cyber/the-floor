@@ -11,6 +11,12 @@ const FLOOR_DATA_CONST = [
     hasPlayed: false,
     isStillInTheGame: true,
   },
+   {
+    person: "Anna",
+    category: "Bulgarian Landmarks",
+    hasPlayed: false,
+    isStillInTheGame: true,
+  },
   {
     person: "Mila",
     category: "Bulgarian Chalga Singers",
@@ -265,6 +271,7 @@ export type Category =
   | "Fast food chains"
   | "Fridge"
   | "Bulgarian Chalga Singers"
+  | "Bulgarian Landmarks"
   | "Garage"
   | "Holidays"
   | "MLB Teams"
@@ -560,6 +567,232 @@ const PokemonCategory: CategoryMetadata = {
   ],
 };
 
+const BulgarianLandmarksCategory: CategoryMetadata = {
+  name: "Bulgarian Landmarks",
+  folder: "bulgarian-landmarks",
+  examples: [
+    {
+      name: "Alexander Nevsky Cathedral",
+      text: "Alexander Nevsky Cathedral",
+      alternatives: ["St. Alexander Nevsky Cathedral", "Alexander Nevsky"],
+    },
+    {
+      name: "Rila Monastery",
+      text: "Rila Monastery",
+      alternatives: [],
+    },
+    {
+      name: "Boyana Church",
+      text: "Boyana Church",
+      alternatives: [],
+    },
+    {
+      name: "Tsarevets",
+      text: "Tsarevets Fortress",
+      alternatives: ["Tsarevets"],
+    },
+    {
+      name: "Bachkovo Monastery",
+      text: "Bachkovo Monastery",
+      alternatives: [],
+    },
+    {
+      name: "Belogradchik Rocks",
+      text: "Belogradchik Rocks",
+      alternatives: ["Belogradchik"],
+    },
+    {
+      name: "Seven Rila Lakes",
+      text: "Seven Rila Lakes",
+      alternatives: ["The Seven Rila Lakes"],
+    },
+    {
+      name: "Shipka Monument",
+      text: "Shipka Monument",
+      alternatives: ["Shipka", "Shipka Memorial"],
+    },
+    {
+      name: "Madara Rider",
+      text: "Madara Rider",
+      alternatives: ["The Madara Rider"],
+    },
+    {
+      name: "Asenova Krepost",
+      text: "Asenova Krepost",
+      alternatives: ["Asenova Krepost", "Asens Fortress"],
+    },
+    {
+      name: "Koprivshtitsa",
+      text: "Koprivshtitsa",
+      alternatives: [],
+    },
+    {
+      name: "Old Nessebar",
+      text: "Old Nessebar",
+      alternatives: ["Nessebar", "Ancient Nessebar"],
+    },
+    {
+      name: "Roman Theatre of Plovdiv",
+      text: "Roman Theatre of Plovdiv",
+      alternatives: ["Ancient Theatre of Plovdiv", "Roman Theatre", "Ancient Theater of Plovdiv"],
+    },
+    {
+      name: "Hisarya",
+      text: "Hisarya",
+      alternatives: ["Hisarya"],
+    },
+    {
+      name: "Perperikon",
+      text: "Perperikon",
+      alternatives: [],
+    },
+    {
+      name: "Devetashka Cave",
+      text: "Devetashka Cave",
+      alternatives: [],
+    },
+    {
+      name: "Prohodna Cave",
+      text: "Prohodna Cave",
+      alternatives: ["Eyes of God Cave", "The Eyes of God"],
+    },
+    {
+      name: "Magura Cave",
+      text: "Magura Cave",
+      alternatives: ["Magurata Cave"],
+    },
+    {
+      name: "Yagodina Cave",
+      text: "Yagodina Cave",
+      alternatives: [],
+    },
+    {
+      name: "Devil's Throat Cave",
+      text: "Devil's Throat Cave",
+      alternatives: ["Dyavolsko Garlo", "Devils Throat Cave"],
+    },
+    {
+      name: "Krushuna Waterfalls",
+      text: "Krushuna Waterfalls",
+      alternatives: ["Krushuna Falls"],
+    },
+    {
+      name: "Krushelski Waterfall",
+      text: "Krushelski Waterfall",
+      alternatives: [],
+    },
+    {
+      name: "Etar Architectural-Ethnographic Complex",
+      text: "Etar Architectural-Ethnographic Complex",
+      alternatives: ["Etar", "Etara"],
+    },
+    {
+      name: "Chudnite Mostove",
+      text: "Chudnite Mostove",
+      alternatives: [],
+    },
+    {
+      name: "Pobiti Kamani",
+      text: "Pobiti Kamani",
+      alternatives: ["Pobiti Kamani"],
+    },
+    {
+      name: "Nos Kaliakra",
+      text: "Cape Kaliakra",
+      alternatives: ["Kaliakra"],
+    },
+    {
+      name: "Aladzha Monastery",
+      text: "Aladzha Monastery",
+      alternatives: [],
+    },
+    {
+      name: "Balchik Palace",
+      text: "Balchik Palace",
+      alternatives: ["The Palace of Balchik", "Queen Marie Palace"],
+    },
+    {
+      name: "Botanical Garden Balchik",
+      text: "Botanical Garden Balchik",
+      alternatives: ["Balchik Botanical Garden"],
+    },
+    {
+      name: "Buzludzha Monument",
+      text: "Buzludzha Monument",
+      alternatives: ["Buzludzha"],
+    },
+    {
+      name: "Shumenska Krepost",
+      text: "Shumen Fortress",
+      alternatives: ["Shumenska Krepost"],
+    },
+    {
+      name: "Monument to the Founders of the Bulgarian State",
+      text: "Monument to the Founders of the Bulgarian State",
+      alternatives: ["Founders of the Bulgarian State Monument", "Shumen Monument 1300 Years Bulgaria"],
+    },
+    {
+      name: "Ivanovo Rock Churches",
+      text: "Ivanovo Rock Churches",
+      alternatives: ["Rock-Hewn Churches of Ivanovo"],
+    },
+    {
+      name: "Orlov Bridge",
+      text: "Orlov Bridge",
+      alternatives: [],
+    },
+    {
+      name: "Sveshtarska Grobnica",
+      text: "Sveshtari Tomb",
+      alternatives: ["Thracian Tomb of Sveshtari"],
+    },
+    {
+      name: "Kazanlushkata Grobnica",
+      text: "Kazanlak Tomb",
+      alternatives: ["Thracian Tomb of Kazanlak"],
+    },
+    {
+      name: "Albena",
+      text: "Albena",
+      alternatives: ["Albena"],
+    },
+    {
+      name: "Pliska",
+      text: "Pliska",
+      alternatives: ["Pliska National Historical and Archaeological Reserve"],
+    },
+    {
+      name: "Preslav",
+      text: "Preslav",
+      alternatives: ["Veliki Preslav", "Great Preslav"],
+    },
+    {
+      name: "Baba Vida Krepost",
+      text: "Baba Vida Fortress",
+      alternatives: ["Baba Vida"],
+    },
+    {
+      name: "Ovech Krepost",
+      text: "Ovech Fortress",
+      alternatives: ["Ovech"],
+    },
+    {
+      name: "Dryanovo Monastery",
+      text: "Dryanovo Monastery",
+      alternatives: [],
+    },
+    {
+      name: "National Palace of Culture/NDK",
+      text: "National Palace of Culture",
+      alternatives: ["NDK", "National Palace of Culture Sofia"],
+    },
+    {
+      name: "Largo Sofia",
+      text: "Largo Sofia",
+      alternatives: ["The Largo", "Sofia Largo"],
+    },
+  ],
+};
 const BroadwayShowsCategory: CategoryMetadata = {
   name: "Broadway shows",
   folder: "broadway-shows",
@@ -8882,6 +9115,7 @@ export const CATEGORY_METADATA: Record<Category, CategoryMetadata> = {
   "Brand slogans": BrandSlogansCategory,
   "Broadway shows": BroadwayShowsCategory,
   "Bulgarian Chalga Singers": BulgarianChalgaSingersCategory,
+  "Bulgarian Landmarks": BulgarianLandmarksCategory
   "Chicago tourist stuff": ChicagoTouristStuffCategory,
   "City Skylines": CitySkylinesCategory,
   Comedians: ComediansCategory,

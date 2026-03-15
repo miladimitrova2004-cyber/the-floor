@@ -8891,6 +8891,7 @@ export const CATEGORY_METADATA: Record<Category, CategoryMetadata> = {
   Books: BooksCategory,
   "Brand slogans": BrandSlogansCategory,
   "Broadway shows": BroadwayShowsCategory,
+  "Bulgarian Chalga Singers": BulgarianChalgaSingersCategory,
   "Chicago tourist stuff": ChicagoTouristStuffCategory,
   "City Skylines": CitySkylinesCategory,
   Comedians: ComediansCategory,

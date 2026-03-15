@@ -713,7 +713,7 @@ const BulgarianLandmarksCategory: CategoryMetadata = {
     },
     {
       name: "Buzludzha Monument",
-      image: "buzludzha.jpg",
+      image: "buzludza.jpg",
       alternatives: ["Buzludzha"],
     },
     {

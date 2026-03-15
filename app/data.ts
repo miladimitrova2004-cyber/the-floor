@@ -1781,7 +1781,9 @@ const BulgarianChalgaSingersCategory: CategoryMetadata = {
   name: "Kristian Kirilov",
   text: "Kristian Kirilov",
   alternatives: [],
-}
+    },
+  ],
+};
   
 const JunkDrawerCategory: CategoryMetadata = {
   name: "Junk drawer",

@@ -1584,7 +1584,7 @@ const BulgarianChalgaSingersCategory: CategoryMetadata = {
 },
 {
   name: "Emilia",
-  text: "emilia.jpg",
+  image: "emilia.jpg",
   alternatives: [],
 },
 {

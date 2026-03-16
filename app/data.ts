@@ -9340,7 +9340,7 @@ export const CATEGORY_METADATA: Record<Category, CategoryMetadata> = {
   "Broadway shows": BroadwayShowsCategory,
   "Bulgarian Chalga Singers": BulgarianChalgaSingersCategory,
   "Bulgarian Landmarks": BulgarianLandmarksCategory,
-  "Bulgarian TV Shows": BulgarianTVShows,
+  "Bulgarian TV Shows": BulgarianTVShowsCategory,
   "Chicago tourist stuff": ChicagoTouristStuffCategory,
   "City Skylines": CitySkylinesCategory,
   Comedians: ComediansCategory,

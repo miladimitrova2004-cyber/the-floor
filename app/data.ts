@@ -589,11 +589,6 @@ const BulgarianTVShowsCategory: CategoryMetadata = {
       alternatives: ["Igrite na volyata"],
     },
     {
-      name: "Survivor",
-      image: "сървайвър.jpg",
-      alternatives: ["Сървайвър"],
-    },
-    {
       name: "Big Brother",
       image: "бигбрадър.jpg",
       alternatives: ["Биг Брадър"],
@@ -647,11 +642,6 @@ const BulgarianTVShowsCategory: CategoryMetadata = {
       name: "Стани богат",
       image: "станибогат.jpg",
       alternatives: ["Who Wants to Be a Millionaire Bulgaria"],
-    },
-    {
-      name: "Семейни войни",
-      image: "семейнивойни.png",
-      alternatives: ["Family Feud Bulgaria"],
     },
     {
       name: "Последният печели",
@@ -776,11 +766,6 @@ const BulgarianTVShowsCategory: CategoryMetadata = {
     {
       name: "Искрено и лично",
       image: "искреноилично.jpg",
-      alternatives: [],
-    },
-    {
-      name: "Чай",
-      image: "чай.jpeg",
       alternatives: [],
     },
     {

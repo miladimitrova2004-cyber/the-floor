@@ -19,7 +19,7 @@ const FLOOR_DATA_CONST = [
   },
     {
     person: "Ben",
-    category: "Bulgarian Car Codes",
+    category: "Bulgarian Literature",
     hasPlayed: false,
     isStillInTheGame: true,
   },
@@ -257,7 +257,7 @@ export type Category =
   | "Laundry"
   | "Pop divas"
   | "Bulgarian TV Shows"
-  | "Bulgarian Car Codes"
+  | "Bulgarian Literature"
   | "Chicago tourist stuff"
   | "Board games"
   | "States"
@@ -581,143 +581,258 @@ const PokemonCategory: CategoryMetadata = {
   ],
 };
 
-const BulgarianCarCodesCategory: CategoryMetadata = {
-  name: "Bulgarian Car Codes",
-  folder: "bulgarian-car-codes",
+const BulgarianLiteratureCategory: CategoryMetadata = {
+  name: "Bulgarian Literature",
+  folder: "literary-authors-and-works",
   examples: [
     {
-      name: "Sofia",
-      text: "C",
-      alternatives: ["CA", "CB"],
-    },
-    {
-      name: "Sofia Region",
-      text: "CO",
+      name: "Иван Вазов",
+      text: "Под игото",
       alternatives: [],
     },
     {
-      name: "Burgas",
-      text: "A",
+      name: "Алеко Константинов",
+      text: "Бай Ганьо",
       alternatives: [],
     },
     {
-      name: "Varna",
-      text: "B",
-      alternatives: ["VB"],
-    },
-    {
-      name: "Plovdiv",
-      text: "PB",
+      name: "Димитър Талев",
+      text: "Железният светилник",
       alternatives: [],
     },
     {
-      name: "Stara Zagora",
-      text: "CT",
+      name: "Димитър Димов",
+      text: "Тютюн",
       alternatives: [],
     },
     {
-      name: "Veliko Tarnovo",
-      text: "ВT",
+      name: "Елин Пелин",
+      text: "Гераците",
       alternatives: [],
     },
     {
-      name: "Ruse",
-      text: "P",
+      name: "Йордан Йовков",
+      text: "Албена",
       alternatives: [],
     },
     {
-      name: "Shumen",
-      text: "H",
+      name: "Гео Милев",
+      text: "Септември",
       alternatives: [],
     },
     {
-      name: "Pleven",
-      text: "EH",
+      name: "Пейо Яворов",
+      text: "Две хубави очи",
       alternatives: [],
     },
     {
-      name: "Blagoevgrad",
-      text: "E",
+      name: "Пенчо Славейков",
+      text: "Cis-moll",
       alternatives: [],
     },
     {
-      name: "Sliven",
-      text: "CH",
+      name: "Христо Ботев",
+      text: "Майце си",
       alternatives: [],
     },
     {
-      name: "Pazardzhik",
-      text: "PA",
+      name: "Христо Ботев",
+      text: "Хаджи Димитър",
       alternatives: [],
     },
     {
-      name: "Vidin",
-      text: "BH",
+      name: "Пейо Яворов",
+      text: "Градушка",
       alternatives: [],
     },
     {
-      name: "Vratsa",
-      text: "BP",
+      name: "Паисий Хилендарски",
+      text: "История славянобългарска",
       alternatives: [],
     },
     {
-      name: "Montana",
-      text: "M",
+      name: "Пенчо Славейков",
+      text: "Неразделни",
       alternatives: [],
     },
     {
-      name: "Lovech",
-      text: "OB",
+      name: "Пенчо Славейков",
+      text: "Спи езерото",
       alternatives: [],
     },
     {
-      name: "Kardzhali",
-      text: "K",
+      name: "Димчо Дебелянов",
+      text: "Да се завърнеш в бащината къща",
       alternatives: [],
     },
     {
-      name: "Haskovo",
-      text: "X",
+      name: "Димчо Дебелянов",
+      text: "Скрити вопли",
       alternatives: [],
     },
     {
-      name: "Smolyan",
-      text: "CM",
+      name: "Христо Смирненски",
+      text: "Зимни вечери",
       alternatives: [],
     },
     {
-      name: "Targovishte",
-      text: "T",
+      name: "Христо Смирненски",
+      text: "Юноша",
       alternatives: [],
     },
     {
-      name: "Razgrad",
-      text: "PP",
+      name: "Никола Вапцаров",
+      text: "Песен за човека",
       alternatives: [],
     },
     {
-      name: "Silistra",
-      text: "CC",
+      name: "Никола Вапцаров",
+      text: "Кино",
       alternatives: [],
     },
     {
-      name: "Yambol",
-      text: "У",
+      name: "Емилиян Станев",
+      text: "Антихрист",
       alternatives: [],
     },
     {
-      name: "Kyustendil",
-      text: "KH",
+      name: "Николай Хайтов",
+      text: "Диви разкази",
       alternatives: [],
     },
     {
-      name: "Pernik",
-      text: "PK",
+      name: "Антон Дончев",
+      text: "Време разделно",
       alternatives: [],
     },
     {
-      name: "Dobrich",
-      text: "TX",
+      name: "Павел Вежинов",
+      text: "Бариерата",
+      alternatives: [],
+    },
+    {
+      name: "Емилиян Станев",
+      text: "Крадецът на праскови",
+      alternatives: [],
+    },
+    {
+      name: "Пейо Яворов",
+      text: "На нивата",
+      alternatives: [],
+    },
+    {
+      name: "Иван Вазов",
+      text: "Чичовци",
+      alternatives: [],
+    },
+    {
+      name: "Иван Вазов",
+      text: "Епопея на забравените",
+      alternatives: [],
+    },
+    {
+      name: "Йордан Йовков",
+      text: "По жицата",
+      alternatives: [],
+    },
+    {
+      name: "Йордан Йовков",
+      text: "През чумавото",
+      alternatives: [],
+    },
+    {
+      name: "Елин Пелин",
+      text: "Ветрената мелница",
+      alternatives: [],
+    },
+    {
+      name: "Елин Пелин",
+      text: "На оня свят",
+      alternatives: [],
+    },
+    {
+      name: "Елисавета Багряна",
+      text: "Потомка",
+      alternatives: [],
+    },
+    {
+      name: "Елисавета Багряна",
+      text: "Вечната и святата",
+      alternatives: [],
+    },
+    {
+      name: "Иван Вазов",
+      text: "Една българка",
+      alternatives: [],
+    },
+    {
+      name: "Иван Вазов",
+      text: "Българският език",
+      alternatives: [],
+    },
+    {
+      name: "Иван Вазов",
+      text: "Опълченците на Шипка",
+      alternatives: [],
+    },
+    {
+      name: "Елин Пелин",
+      text: "Косачи",
+      alternatives: [],
+    },
+    {
+      name: "Йордан Йовков",
+      text: "Шибил",
+      alternatives: [],
+    },
+    {
+      name: "Йордан Йовков",
+      text: "Индже",
+      alternatives: [],
+    },
+    {
+      name: "Пейо Яворов",
+      text: "Стон",
+      alternatives: [],
+    },
+    {
+      name: "Пейо Яворов",
+      text: "Маска",
+      alternatives: [],
+    },
+    {
+      name: "Алеко Константинов",
+      text: "Ниагара",
+      alternatives: [],
+    },
+    {
+      name: "Алеко Константинов",
+      text: "Разни хора, разни идеали",
+      alternatives: [],
+    },
+    {
+      name: "Николай Лилиев",
+      text: "Тихият пролетен дъжд",
+      alternatives: [],
+    },
+    {
+      name: "Димчо Дебелянов",
+      text: "Черна песен",
+      alternatives: [],
+    },
+    {
+      name: "Атанас Далчев",
+      text: "Книгите",
+      alternatives: [],
+    },
+    {
+      name: "Атанас Далчев",
+      text: "Прозорец",
+      alternatives: [],
+    },
+    {
+      name: "Христо Ботев",
+      text: "Към брата си",
       alternatives: [],
     },
   ],
@@ -9475,7 +9590,7 @@ export const CATEGORY_METADATA: Record<Category, CategoryMetadata> = {
   "Bulgarian Chalga Singers": BulgarianChalgaSingersCategory,
   "Bulgarian Landmarks": BulgarianLandmarksCategory,
   "Bulgarian TV Shows": BulgarianTVShowsCategory,
-  "Bulgarian Car Codes": BulgarianCarCodesCategory,
+  "Bulgarian Literature": BulgarianLiteratureCategory,
   "Chicago tourist stuff": ChicagoTouristStuffCategory,
   "City Skylines": CitySkylinesCategory,
   Comedians: ComediansCategory,

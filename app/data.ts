@@ -17,6 +17,12 @@ const FLOOR_DATA_CONST = [
     hasPlayed: false,
     isStillInTheGame: true,
   },
+    {
+    person: "Ben",
+    category: "Bulgarian Car Codes",
+    hasPlayed: false,
+    isStillInTheGame: true,
+  },
    {
     person: "Anna",
     category: "Bulgarian Landmarks",
@@ -251,6 +257,7 @@ export type Category =
   | "Laundry"
   | "Pop divas"
   | "Bulgarian TV Shows"
+  | "Bulgarian Car Codes"
   | "Chicago tourist stuff"
   | "Board games"
   | "States"
@@ -569,6 +576,148 @@ const PokemonCategory: CategoryMetadata = {
     {
       name: "Magnemite",
       image: "magnemite.png",
+      alternatives: [],
+    },
+  ],
+};
+
+const BulgarianCarCodesCategory: CategoryMetadata = {
+  name: "Bulgarian Car Codes",
+  folder: "bulgarian-car-codes",
+  examples: [
+    {
+      name: "Sofia",
+      text: "C",
+      alternatives: ["CA", "CB"],
+    },
+    {
+      name: "Sofia Region",
+      text: "CO",
+      alternatives: [],
+    },
+    {
+      name: "Burgas",
+      text: "A",
+      alternatives: [],
+    },
+    {
+      name: "Varna",
+      text: "B",
+      alternatives: ["VB"],
+    },
+    {
+      name: "Plovdiv",
+      text: "PB",
+      alternatives: [],
+    },
+    {
+      name: "Stara Zagora",
+      text: "CT",
+      alternatives: [],
+    },
+    {
+      name: "Veliko Tarnovo",
+      text: "ВT",
+      alternatives: [],
+    },
+    {
+      name: "Ruse",
+      text: "P",
+      alternatives: [],
+    },
+    {
+      name: "Shumen",
+      text: "H",
+      alternatives: [],
+    },
+    {
+      name: "Pleven",
+      text: "EH",
+      alternatives: [],
+    },
+    {
+      name: "Blagoevgrad",
+      text: "E",
+      alternatives: [],
+    },
+    {
+      name: "Sliven",
+      text: "CH",
+      alternatives: [],
+    },
+    {
+      name: "Pazardzhik",
+      text: "PA",
+      alternatives: [],
+    },
+    {
+      name: "Vidin",
+      text: "BH",
+      alternatives: [],
+    },
+    {
+      name: "Vratsa",
+      text: "BP",
+      alternatives: [],
+    },
+    {
+      name: "Montana",
+      text: "M",
+      alternatives: [],
+    },
+    {
+      name: "Lovech",
+      text: "OB",
+      alternatives: [],
+    },
+    {
+      name: "Kardzhali",
+      text: "K",
+      alternatives: [],
+    },
+    {
+      name: "Haskovo",
+      text: "X",
+      alternatives: [],
+    },
+    {
+      name: "Smolyan",
+      text: "CM",
+      alternatives: [],
+    },
+    {
+      name: "Targovishte",
+      text: "T",
+      alternatives: [],
+    },
+    {
+      name: "Razgrad",
+      text: "PP",
+      alternatives: [],
+    },
+    {
+      name: "Silistra",
+      text: "CC",
+      alternatives: [],
+    },
+    {
+      name: "Yambol",
+      text: "У",
+      alternatives: [],
+    },
+    {
+      name: "Kyustendil",
+      text: "KH",
+      alternatives: [],
+    },
+    {
+      name: "Pernik",
+      text: "PK",
+      alternatives: [],
+    },
+    {
+      name: "Dobrich",
+      text: "TX",
       alternatives: [],
     },
   ],
@@ -9326,6 +9475,7 @@ export const CATEGORY_METADATA: Record<Category, CategoryMetadata> = {
   "Bulgarian Chalga Singers": BulgarianChalgaSingersCategory,
   "Bulgarian Landmarks": BulgarianLandmarksCategory,
   "Bulgarian TV Shows": BulgarianTVShowsCategory,
+  "Bulgarian Car Codes": BulgarianCarCodesCategory,
   "Chicago tourist stuff": ChicagoTouristStuffCategory,
   "City Skylines": CitySkylinesCategory,
   Comedians: ComediansCategory,

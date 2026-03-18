@@ -234,6 +234,12 @@ const FLOOR_DATA_CONST = [
     isStillInTheGame: true,
   },
   {
+    person: "Frank",
+    category: "Periodic Table",
+    hasPlayed: false,
+    isStillInTheGame: true,
+  },
+  {
     person: "Devin",
     category: "Spirit Halloween Catalogue",
     hasPlayed: false,
@@ -267,6 +273,7 @@ export type Category =
   | "Capitals"
   | "Chicago tourist stuff"
   | "Board games"
+  | "Periodic Table"
   | "States"
   | "Harry Potter characters"
   | "Spirit Halloween Catalogue"
@@ -583,6 +590,268 @@ const PokemonCategory: CategoryMetadata = {
     {
       name: "Magnemite",
       image: "magnemite.png",
+      alternatives: [],
+    },
+  ],
+};
+
+const PeriodicTableCategory: CategoryMetadata = {
+  name: "Periodic Table",
+  folder: "periodic-table",
+  examples: [
+    {
+      name: "Водород",
+      text: "H",
+      alternatives: [],
+    },
+    {
+      name: "Хелий",
+      text: "He",
+      alternatives: [],
+    },
+    {
+      name: "Литий",
+      text: "Li",
+      alternatives: [],
+    },
+    {
+      name: "Берилий",
+      text: "Be",
+      alternatives: [],
+    },
+    {
+      name: "Бор",
+      text: "B",
+      alternatives: [],
+    },
+    {
+      name: "Въглерод",
+      text: "C",
+      alternatives: [],
+    },
+    {
+      name: "Азот",
+      text: "N",
+      alternatives: [],
+    },
+    {
+      name: "Кислород",
+      text: "O",
+      alternatives: [],
+    },
+    {
+      name: "Флуор",
+      text: "F",
+      alternatives: [],
+    },
+    {
+      name: "Неон",
+      text: "Ne",
+      alternatives: [],
+    },
+    {
+      name: "Натрий",
+      text: "Na",
+      alternatives: [],
+    },
+    {
+      name: "Магнезий",
+      text: "Mg",
+      alternatives: [],
+    },
+    {
+      name: "Алуминий",
+      text: "Al",
+      alternatives: [],
+    },
+    {
+      name: "Силиций",
+      text: "Si",
+      alternatives: [],
+    },
+    {
+      name: "Фосфор",
+      text: "P",
+      alternatives: [],
+    },
+    {
+      name: "Сяра",
+      text: "S",
+      alternatives: [],
+    },
+    {
+      name: "Хлор",
+      text: "Cl",
+      alternatives: [],
+    },
+    {
+      name: "Аргон",
+      text: "Ar",
+      alternatives: [],
+    },
+    {
+      name: "Калий",
+      text: "K",
+      alternatives: [],
+    },
+    {
+      name: "Калций",
+      text: "Ca",
+      alternatives: [],
+    },
+    {
+      name: "Желязо",
+      text: "Fe",
+      alternatives: [],
+    },
+    {
+      name: "Мед",
+      text: "Cu",
+      alternatives: [],
+    },
+    {
+      name: "Цинк",
+      text: "Zn",
+      alternatives: [],
+    },
+    {
+      name: "Сребро",
+      text: "Ag",
+      alternatives: [],
+    },
+    {
+      name: "Злато",
+      text: "Au",
+      alternatives: [],
+    },
+    {
+      name: "Живак",
+      text: "Hg",
+      alternatives: [],
+    },
+    {
+      name: "Олово",
+      text: "Pb",
+      alternatives: [],
+    },
+    {
+      name: "Калай",
+      text: "Sn",
+      alternatives: [],
+    },
+    {
+      name: "Никел",
+      text: "Ni",
+      alternatives: [],
+    },
+    {
+      name: "Хром",
+      text: "Cr",
+      alternatives: [],
+    },
+    {
+      name: "Манган",
+      text: "Mn",
+      alternatives: [],
+    },
+    {
+      name: "Кобалт",
+      text: "Co",
+      alternatives: [],
+    },
+    {
+      name: "Платина",
+      text: "Pt",
+      alternatives: [],
+    },
+    {
+      name: "Уран",
+      text: "U",
+      alternatives: [],
+    },
+    {
+      name: "Радий",
+      text: "Ra",
+      alternatives: [],
+    },
+    {
+      name: "Бром",
+      text: "Br",
+      alternatives: [],
+    },
+    {
+      name: "Йод",
+      text: "I",
+      alternatives: [],
+    },
+    {
+      name: "Криптон",
+      text: "Kr",
+      alternatives: [],
+    },
+    {
+      name: "Ксенон",
+      text: "Xe",
+      alternatives: [],
+    },
+    {
+      name: "Радон",
+      text: "Rn",
+      alternatives: [],
+    },
+    {
+      name: "Барий",
+      text: "Ba",
+      alternatives: [],
+    },
+    {
+      name: "Стронций",
+      text: "Sr",
+      alternatives: [],
+    },
+    {
+      name: "Титан",
+      text: "Ti",
+      alternatives: [],
+    },
+    {
+      name: "Ванадий",
+      text: "V",
+      alternatives: [],
+    },
+    {
+      name: "Галий",
+      text: "Ga",
+      alternatives: [],
+    },
+    {
+      name: "Германий",
+      text: "Ge",
+      alternatives: [],
+    },
+    {
+      name: "Арсен",
+      text: "As",
+      alternatives: [],
+    },
+    {
+      name: "Селен",
+      text: "Se",
+      alternatives: [],
+    },
+    {
+      name: "Телур",
+      text: "Te",
+      alternatives: [],
+    },
+    {
+      name: "Цезий",
+      text: "Cs",
+      alternatives: [],
+    },
+    {
+      name: "Рубидий",
+      text: "Rb",
       alternatives: [],
     },
   ],
@@ -9852,6 +10121,7 @@ export const CATEGORY_METADATA: Record<Category, CategoryMetadata> = {
   "Bulgarian TV Shows": BulgarianTVShowsCategory,
   "Bulgarian Literature": BulgarianLiteratureCategory,
   "Chicago tourist stuff": ChicagoTouristStuffCategory,
+  "Periodic Table": PeriodicTableCategory,
   "City Skylines": CitySkylinesCategory,
   Comedians: ComediansCategory,
   "Disney Channel Original Movies": DisneyChannelOriginalMoviesCategory,

@@ -12,6 +12,12 @@ const FLOOR_DATA_CONST = [
     isStillInTheGame: true,
   },
   {
+    person: "Jack",
+    category: "Capitals",
+    hasPlayed: false,
+    isStillInTheGame: true,
+  },
+  {
     person: "Ted",
     category: "Bulgarian TV Shows",
     hasPlayed: false,
@@ -258,6 +264,7 @@ export type Category =
   | "Pop divas"
   | "Bulgarian TV Shows"
   | "Bulgarian Literature"
+  | "Capitals"
   | "Chicago tourist stuff"
   | "Board games"
   | "States"
@@ -576,6 +583,258 @@ const PokemonCategory: CategoryMetadata = {
     {
       name: "Magnemite",
       image: "magnemite.png",
+      alternatives: [],
+    },
+  ],
+};
+
+const CapitalsCategory: CategoryMetadata = {
+  name: "Държави и столици",
+  folder: "european-capitals",
+  examples: [
+    {
+      name: "София",
+      text: "България",
+      alternatives: [],
+    },
+    {
+      name: "Атина",
+      text: "Гърция",
+      alternatives: [],
+    },
+    {
+      name: "Анкара",
+      text: "Турция",
+      alternatives: [],
+    },
+    {
+      name: "Букурещ",
+      text: "Румъния",
+      alternatives: [],
+    },
+    {
+      name: "Белград",
+      text: "Сърбия",
+      alternatives: [],
+    },
+    {
+      name: "Скопие",
+      text: "Северна Македония",
+      alternatives: [],
+    },
+    {
+      name: "Тирана",
+      text: "Албания",
+      alternatives: [],
+    },
+    {
+      name: "Загреб",
+      text: "Хърватия",
+      alternatives: [],
+    },
+    {
+      name: "Сараево",
+      text: "Босна и Херцеговина",
+      alternatives: [],
+    },
+    {
+      name: "Подгорица",
+      text: "Черна гора",
+      alternatives: [],
+    },
+    {
+      name: "Любляна",
+      text: "Словения",
+      alternatives: [],
+    },
+    {
+      name: "Прищина",
+      text: "Косово",
+      alternatives: [],
+    },
+    {
+      name: "Никозия",
+      text: "Кипър",
+      alternatives: [],
+    },
+    {
+      name: "Кишинев",
+      text: "Молдова",
+      alternatives: [],
+    },
+    {
+      name: "Будапеща",
+      text: "Унгария",
+      alternatives: [],
+    },
+    {
+      name: "Виена",
+      text: "Австрия",
+      alternatives: [],
+    },
+    {
+      name: "Прага",
+      text: "Чехия",
+      alternatives: [],
+    },
+    {
+      name: "Братислава",
+      text: "Словакия",
+      alternatives: [],
+    },
+    {
+      name: "Варшава",
+      text: "Полша",
+      alternatives: [],
+    },
+    {
+      name: "Берлин",
+      text: "Германия",
+      alternatives: [],
+    },
+    {
+      name: "Рим",
+      text: "Италия",
+      alternatives: [],
+    },
+    {
+      name: "Париж",
+      text: "Франция",
+      alternatives: [],
+    },
+    {
+      name: "Мадрид",
+      text: "Испания",
+      alternatives: [],
+    },
+    {
+      name: "Лисабон",
+      text: "Португалия",
+      alternatives: [],
+    },
+    {
+      name: "Брюксел",
+      text: "Белгия",
+      alternatives: [],
+    },
+    {
+      name: "Амстердам",
+      text: "Нидерландия",
+      alternatives: [],
+    },
+    {
+      name: "Копенхаген",
+      text: "Дания",
+      alternatives: [],
+    },
+    {
+      name: "Стокхолм",
+      text: "Швеция",
+      alternatives: [],
+    },
+    {
+      name: "Осло",
+      text: "Норвегия",
+      alternatives: [],
+    },
+    {
+      name: "Хелзинки",
+      text: "Финландия",
+      alternatives: [],
+    },
+    {
+      name: "Талин",
+      text: "Естония",
+      alternatives: [],
+    },
+    {
+      name: "Рига",
+      text: "Латвия",
+      alternatives: [],
+    },
+    {
+      name: "Вилнюс",
+      text: "Литва",
+      alternatives: [],
+    },
+    {
+      name: "Дъблин",
+      text: "Ирландия",
+      alternatives: [],
+    },
+    {
+      name: "Лондон",
+      text: "Великобритания",
+      alternatives: [],
+    },
+    {
+      name: "Берн",
+      text: "Швейцария",
+      alternatives: [],
+    },
+    {
+      name: "Люксембург",
+      text: "Люксембург",
+      alternatives: [],
+    },
+    {
+      name: "Монако",
+      text: "Монако",
+      alternatives: [],
+    },
+    {
+      name: "Андора ла Веля",
+      text: "Андора",
+      alternatives: [],
+    },
+    {
+      name: "Валета",
+      text: "Малта",
+      alternatives: [],
+    },
+    {
+      name: "Рейкявик",
+      text: "Исландия",
+      alternatives: [],
+    },
+    {
+      name: "Киев",
+      text: "Украйна",
+      alternatives: [],
+    },
+    {
+      name: "Минск",
+      text: "Беларус",
+      alternatives: [],
+    },
+    {
+      name: "Тбилиси",
+      text: "Грузия",
+      alternatives: [],
+    },
+    {
+      name: "Ереван",
+      text: "Армения",
+      alternatives: [],
+    },
+    {
+      name: "Баку",
+      text: "Азербайджан",
+      alternatives: [],
+    },
+    {
+      name: "Ашхабад",
+      text: "Туркменистан",
+      alternatives: [],
+    },
+    {
+      name: "Ташкент",
+      text: "Узбекистан",
+      alternatives: [],
+    },
+    {
+      name: "Астана",
+      text: "Казахстан",
       alternatives: [],
     },
   ],
@@ -9588,6 +9847,7 @@ export const CATEGORY_METADATA: Record<Category, CategoryMetadata> = {
   "Brand slogans": BrandSlogansCategory,
   "Broadway shows": BroadwayShowsCategory,
   "Bulgarian Chalga Singers": BulgarianChalgaSingersCategory,
+  "Capitals": CapitalsCategory,
   "Bulgarian Landmarks": BulgarianLandmarksCategory,
   "Bulgarian TV Shows": BulgarianTVShowsCategory,
   "Bulgarian Literature": BulgarianLiteratureCategory,
